@@ -1,9 +1,13 @@
 import ThemeSwitcher from "./ThemeSwitcher";
 import { SignOutButton } from "@clerk/nextjs";
+import { UserButton } from "@clerk/nextjs";
 
 
 const themes = [
+    'black',
     'dark',
+    'light',
+    'system',
     'cupcake',
     'bumblebee',
     'emerald',
@@ -20,7 +24,6 @@ const themes = [
     'pastel',
     'fantasy',
     'wireframe',
-    'black',
     'luxury',
     'dracula',
     'cmyk',
@@ -42,7 +45,7 @@ export default function Navbar() {
   <div className="flex-none">
     <ul className="menu menu-horizontal px-1 bg-transparent">
       <ThemeSwitcher themes={themes} />
-      <li><a>Link</a></li>
+      <li><a href="/malla">Malla</a></li>
       <li>
         <details>
           <summary>
@@ -55,9 +58,16 @@ export default function Navbar() {
         </details>
       </li>
       <li>
-        <SignOutButton>
-          <span className="badge-primary">Cerrar sesion</span>
-        </SignOutButton>
+        <UserButton 
+        appearance={{
+          elements: {
+            
+          }
+
+        }}
+        />
+      </li>
+      <li>
       </li>
     </ul>
   </div>

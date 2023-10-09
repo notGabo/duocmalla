@@ -1,0 +1,73 @@
+{
+    "Ingenieria":{
+        "Informatica":{
+            "Primer Semestre":[
+                "Diseño y gestion de requisitos",
+                "Programacion de algoritmos",
+                "Modelamiento de base de datos",
+                "Nivelacion de matematicas",
+                "Habilidades basicas de comunicacion",
+                "Ingles Basico 1",
+                "Proceso de portafolio 1"
+            ],
+            "Segundo Semestre":[
+                "Diseño de prototipos",
+                "Desarrollo de software de escritorio",
+                "Consultas de base de datos",
+                "Matematica aplicada",
+                "Habilidades de comunicacion efectiva",
+                "Ingles Basico 2",
+                "Fundamentos de antropologia",
+                "Proceso de portafolio 2"
+            ],
+            "Tercer Semestre":[
+                "Ingenieria de software",
+                "Programacion web",
+                "Progamacion de base de datos",
+                "Mentalidad emprendedora",
+                "Ingles elemental",
+                "Curso de formacion cristiana",
+                "Proceso de portafolio 3"
+            ],
+            "Cuarto Semestre":[
+                "Calidad de software",
+                "Programacion aplicaciones moviles",
+                "Arquitectura",
+                "Estadistica descriptiva",
+                "Ingles intermedio",
+                "Etica para el trabajo",
+                "Proceso de portafolio 4"
+            ],
+            "Quinto Semestre":[
+                "Evaluacion de proyectos",
+                "BPM",
+                "Integraciond de plataformas",
+                "Practica laboral",
+                "Ingles intermedio alto",
+                "Formacion complementaria",
+                "Proceso de portafolio 5"
+            ],
+            "Sexto Semestre":[
+                "Gestion proyectos informaticos",
+                "Inteligencia de negocios",
+                "Seguridad en sistemas computacionales",
+                "Herramientas para el emprendimiento",
+                "Integrated english practice",
+                "Etica profesional",
+                "Formacion complementaria",
+                "Proceso de portafolio 6"
+            ],
+            "Septimo Semestre":[
+                "Gestion de riesgos",
+                "Mineria de datos",
+                "Big data",
+                "Formacion Complementaria",
+                "Proceso de portafolio 7"
+            ],
+            "Octavo Semestre":[
+                "Capstone",
+                "Practica profesional"
+            ]
+        }
+    }
+}
